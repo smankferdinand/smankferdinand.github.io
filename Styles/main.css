@@ -3,7 +3,7 @@
 header {
     background-color: cadetblue;
      text-align: center;
-    color: rebeccapurple;
+    color: white;
     margin-top: -20px;
 }
 body {
@@ -38,7 +38,7 @@ nav ul li a {
 }
 img {
 width: 200px;
-/*height: 200px;*/
+/*height: 273px;*/
      float: right;
      margin: .5em;
      /*position: relative;*/
@@ -48,7 +48,7 @@ width: 200px;
 main {
     padding: 0 2%;
     min-height: 8rem;
-    background-color: lightgreen;
+    background-color: lightyellow;
 }
 
 .leftcol { 
