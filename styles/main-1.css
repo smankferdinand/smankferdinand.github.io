@@ -46,14 +46,11 @@ ul {
     border: 1px solid #555;
      background-color: deepskyblue;
 }
-li {
-    /*display: inline; */
-}
 li a {
     display: block;
     color: white;
     padding: 10px 12px;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid #555;
     text-decoration: none;
 }
