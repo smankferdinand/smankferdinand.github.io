@@ -1,100 +1,84 @@
-/* This main css file contains the default rules and is geared toward the small/phone view */
+* { box-sizing: border-box;} 
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
-
+header {
+    background-color: cadetblue;
+     text-align: center;
+    color: white;
+    margin-top: -20px;
+}
 body {
-  font-size: 16px;
-  /* Declare the base font-family - from google font api or other */
+    margin: auto;
+    padding: -12px;
 }
-
-header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
-  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+H1, h2 {
+   
 }
-
-header {}
-header h1 {
-    text-align: center;
-    font-size: 48px;
-    padding: 0;
-    margin: 10px;
-}
-header img {
-    width: 300px;
-    float: right;
-    height: 350px;
-}
-header .subheading {
-    font-size: 29px;
-    text-align: center;
-    text-decoration-color: orange;
-    color: orange;
-    margin: 0px;
-}
-
 nav {
-    /*width: 200px;*/
-    padding: 0px;
-}
- button {
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+    background-color: lightyellow;
+    margin-top: -15px;
+    margin-bottom: -.5rem;
     
 }
-ul {
+nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    border: 1px solid #555;
-     background-color: deepskyblue;
+    border: 0px solid #555;
+    list-style-type: none;
 }
-li a {
+nav ul li a {
     display: block;
-    color: white;
     padding: 10px 12px;
-    text-align: left;
-    border-bottom: 1px solid #555;
-    text-decoration: none;
-}
-li.active a {
-    color: chartreuse;
-}
-li a:hover {
-    background-color: darkorange;
-}
-
-main {
-    padding: 10px;
-				line-height: 1.4em;
-				font-size: 1.35em;
-				font-family: 'Playfair Display', sans serif;
-}
-main h2 {}
-main figure { margin: 0 0 .2rem 0%; width:100%; }
-main figure img { width: 100%; }
-
-section {
+    text-align:justify;
    
 }
- .forecast {
-        visibility: collapse;
-    /* display: none; */
-    }
-
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: 100%; /* fill the page in the small/phone view */
-  margin:auto 0;
+img {
+width: 300px;
+/*height: 273px;*/
+     float: right;
+     margin: .5em;
+     /*position: relative;*/
+     padding-top: 1px;
+     object-position:top;
+}
+main {
+    padding: 0 2%;
+    min-height: 8rem;
+    background-color: lightyellow;
 }
 
+.leftcol { 
+				width: 48%;
+				flex: 1 0 15em;
+        margin: .5em;}
+    .rightcol { 
+				width: 48%;
+				flex: 1 0 15em;
+        margin: .5em;}
+    #sec1 {
+				display: flex;
+				flex-flow: row wrap;
+				flex: 1;
+}
+#edu {
+text-align: center;
+}
 footer {
+    background-color: #ddd;
+    padding: .6rem 2%;
     text-align: center;
-    background-color: darkturquoise;
-}
-footer aside {
-    text-align: center;
-    background-color: skyblue;
-}
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
-
-/* Other Class Selectors */
-#currentdate{
     
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
