@@ -19,9 +19,9 @@ header h1 {
     margin: 10px;
 }
 header img {
-    width: 300px;
-    float: right;
-    height: 350px;
+    width: 120px;
+    float: left;
+    height: 98px;
 }
 header .subheading {
     font-size: 29px;
