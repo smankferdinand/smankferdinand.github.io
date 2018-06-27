@@ -1,0 +1,108 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Forecast</title>
+  <meta name="author" content="Ferdinand Chizuru Ukaegbu">
+  <meta name="description" content="page description placeholder">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+    
+    </head>
+    <body>
+        <header>
+    <img src="images/clouds-outlined-weather-symbol.jpeg" alt="The-site-logo">
+    <h1>Weather Forecast</h1>
+    <div class="subheading">Weather Forecast, Be aware all Time</div>
+            
+  </header>
+   
+  <!-- site navigation use placeholder references -->
+  <nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide plat">
+    	<li><a href="index.html">Home</a></li>
+    	<li class="active"><a href="franklin.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+        <main>
+       <figure>
+      <img id="banna" src="images/banner.jpeg" alt="banner">
+    </figure>
+            <section class="mine">
+           <article class="container">
+                 <div class="first"><img src="images/gallary1_800.jpg" alt="image_1" sizes="50vw"
+                                       srcset="images/gallary1_200.jpg 200w,
+                   images/gallary1_500.jpg 500w,
+                   images/gallary1_800.jpg 800w"><br>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                   It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+               </div>
+               <div class="second"><img src="images/gallary3_800.jpg" alt="image_2" sizes="50vw"
+                                       srcset="images/gallary3_200.jpg 200w,
+                   images/gallary3_500.jpg 500w,
+                   images/gallary3_800.jpg 800w" ><br>
+                  Contrary to popular belief, Lorem Ipsum is not simply random text.
+                   It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+               </div>
+               <div class="third"><img src="images/gallary4_800.jpg" alt="image_3" sizes="50vw"
+                                       srcset="images/gallary4_200.jpg 200w,
+                   images/gallary4_500.jpg 500w,
+                   images/gallary4_800.jpg 800w"><br>
+                   Contrary to popular belief, Lorem Ipsum is not simply random text.
+                   It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+               </div>
+               <div class="fourth"><img src="images/gallary5_800.jpg" alt="image_4" sizes="50vw"
+                                        srcset="images/gallary5_200.jpg 200w,
+                   images/gallary5_500.jpg 500w,
+                   images/gallary5_800.jpg 800w"><br>
+                   Contrary to popular belief, Lorem Ipsum is not simply random text.
+                   It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+               </div>
+               <div class="fifth"><img src="images/gallary_8_800.jpg" alt="image_5" sizes="50vw"
+                                       srcset="images/gallary_8_200.jpg 200w,
+                   images/gallary_8_500.jpg 500w,
+                   images/gallary_8_800.jpg 800w"><br>
+                   Contrary to popular belief, Lorem Ipsum is not simply random text.
+                   It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+               </div>
+               <div class="sixth"><img src="images/gallary6.jpg" alt="image_6" sizes="50vw"
+                                       srcset="images/gallary6_200.jpg 200w,
+                   images/gallary6_500.jpg 500w,
+                   images/gallary6_800.jpg 800w"><br>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                   It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+               </div>
+            
+            
+            </article>
+                </section>
+        
+        </main>
+        
+        <footer>
+    <aside>
+      Weather Forecast <br>
+      67 mountain avenue <br>
+      Franklin City <br>
+      contact (233)202117077 or uka16001@byui.edu<br>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | Weather Forecast | <span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+
+    </body>
+
+</html>
